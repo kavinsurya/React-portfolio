@@ -1,0 +1,237 @@
+body {
+  background-color: #f1f1f1;
+}
+.header {
+  overflow: hidden;
+  background-color: #f1f1f1;
+  padding: 10px;
+}
+
+.header a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 25px;
+  border-radius: 4px;
+}
+
+.header a.logo {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.header a:hover {
+  background-color: #ddd;
+  color: black;
+  cursor: default;
+}
+
+.header-right {
+  float: right;
+}
+
+.image {
+  width: 100%;
+  height: 695px;
+}
+
+.container {
+  position: relative;
+  font-family: Arial;
+}
+
+.text-block {
+  position: absolute;
+  top: 10%;
+  right: 20%;
+  color: white;
+  padding: 20px;
+}
+.text-blockName {
+  font-size: 40px;
+}
+.text-blockRole {
+  font-size: large;
+}
+
+.about {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 50px;
+}
+
+.about div {
+  width: 50%;
+  text-align: center;
+  line-height: 1.8;
+}
+.aboutHeading {
+  font-size: 32px;
+}
+.aboutContent {
+  font-size: 25px;
+}
+
+.skillContainer {
+  width: 60%;
+  font-family: "Roboto", sans-serif;
+  margin: 50px auto;
+}
+.skillTitle {
+  text-align: center;
+  font-size: 32px;
+}
+
+.skill {
+  margin-bottom: 35px;
+  position: relative;
+  overflow-x: hidden;
+}
+.skill > p {
+  font-size: 18px;
+  font-weight: 700;
+  color: #1a1716;
+  margin: 0;
+}
+.skill:before {
+  width: 100%;
+  height: 5px;
+  content: "";
+  display: block;
+  position: absolute;
+  background: #959595;
+  bottom: 0;
+}
+.skill-bar {
+  width: 100%;
+  height: 5px;
+  display: block;
+  background-color: #0000ff;
+  position: relative;
+}
+
+.skill-bar span {
+  position: absolute;
+  border-top: 5px solid #0000ff;
+  top: -30px;
+  padding: 0;
+  font-size: 18px;
+  padding: 3px 0;
+  font-weight: 500;
+}
+.skill-bar {
+  position: relative;
+}
+
+.skill1 {
+  width: 95%;
+}
+.skill1 .skill-count1 {
+  right: 0;
+}
+
+.skill2 {
+  width: 90%;
+}
+.skill2 .skill-count2 {
+  right: 0;
+}
+
+.skill3 {
+  width: 85%;
+}
+.skill3 .skill-count3 {
+  right: 0;
+}
+
+.skill4 {
+  width: 85%;
+}
+.skill4 .skill-count4 {
+  right: 0;
+}
+
+.skill5 {
+  width: 85%;
+}
+.skill5 .skill-count5 {
+  right: 0;
+}
+
+.skill6 {
+  width: 75%;
+}
+.skill6 .skill-count6 {
+  right: 0;
+}
+
+.education {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 50px;
+}
+
+.education div {
+  width: 50%;
+  text-align: center;
+  line-height: 1.8;
+}
+.educationHeading {
+  font-size: 32px;
+}
+.educationContent {
+  font-size: 25px;
+}
+.footer {
+  box-sizing: border-box;
+  background: #151414;
+  color: whitesmoke;
+  text-align: center;
+}
+
+.column {
+  float: left;
+  width: 32%;
+  padding: 5px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.footerName {
+  text-align: center;
+  padding: 10;
+}
+@media screen and (max-width: 500px) {
+  .header a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+
+  .header-right {
+    float: none;
+  }
+}
+
+
+.footer {
+  background-color: #292c2f;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+  box-sizing: border-box;
+  width: 100%;
+  text-align: left;
+  font: normal 16px sans-serif;
+  padding: 45px 50px;
+}
+
+
+
