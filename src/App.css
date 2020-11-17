@@ -29,8 +29,9 @@ body {
   cursor: default;
 }
 
-.header-right {
-  float: right;
+.center{
+  text-align: center;
+  padding: 5px;
 }
 
 .image {
@@ -217,9 +218,7 @@ body {
     text-align: left;
   }
 
-  .header-right {
-    float: none;
-  }
+ 
 }
 
 
@@ -230,8 +229,7 @@ body {
   width: 100%;
   text-align: left;
   font: normal 16px sans-serif;
-  padding: 45px 50px;
+  padding: 20px 30px;
 }
-
 
 
